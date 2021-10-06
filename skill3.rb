@@ -44,7 +44,16 @@
 
 # p "I absoultely love the book, '" + book_title + "' by " + author
 
-book_title = "Scentenced to Troll"
-author = "S.L. Rowland"
+# book_title = "Scentenced to Troll"
+# author = "S.L. Rowland"
 
-p "My favorite book is #{book_title}, by #{author}."
+# p "My favorite book is #{book_title}, by #{author}."
+
+p "Enter a password:"
+input_password = gets.chomp.downcase
+
+if input_password == "joshua"
+  p "Shall we play?"
+else
+  p "Access Denied"
+end
