@@ -18,8 +18,14 @@
 #   p "polo"
 # end
 
-color_1 = "red"
-color_2 = "blue"
-color_3 = "white"
+# color_1 = "red"
+# color_2 = "blue"
+# color_3 = "white"
 
-p "My flag is " + color_1 + ", " + color_2 + ", and  " + color_3 
+# p "My flag is " + color_1 + ", " + color_2 + ", and  " + color_3 
+
+#4
+color_1 = "red"
+color_2 = "White"
+color_3 = "blue"
+p "My flag is #{color_1}, #{color_2}, and #{color_3}."
