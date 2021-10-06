@@ -52,11 +52,20 @@
 
 #6
 
-number_1 = 0
-number_2 = 0
+# number_1 = 0
+# number_2 = 0
 
-if number_1 > 100 || number_2 > 100
-  p 10
+# if number_1 > 100 || number_2 > 100
+#   p 10
+# else
+#   p -100
+# end
+
+
+#7
+number = -1
+if number < 0 
+p 1776 
 else
-  p -100
+  p 1979
 end
