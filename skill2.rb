@@ -38,13 +38,25 @@
 
 #5
 
-number = 21
-if number < 10
-  p 9
-elsif number < 20
-  p 19
-elsif number < 30
-  p 29
+# number = 21
+# if number < 10
+#   p 9
+# elsif number < 20
+#   p 19
+# elsif number < 30
+#   p 29
+# else
+#   p -1
+# end
+
+
+#6
+
+number_1 = 0
+number_2 = 0
+
+if number_1 > 100 || number_2 > 100
+  p 10
 else
-  p -1
+  p -100
 end
