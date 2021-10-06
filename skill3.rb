@@ -49,11 +49,19 @@
 
 # p "My favorite book is #{book_title}, by #{author}."
 
-p "Enter a password:"
-input_password = gets.chomp.downcase
+# p "Enter a password:"
+# input_password = gets.chomp.downcase
 
-if input_password == "joshua"
-  p "Shall we play?"
-else
-  p "Access Denied"
-end
+# if input_password == "joshua"
+#   p "Shall we play?"
+# else
+#   p "Access Denied"
+# end
+
+
+# city_1 = "Tokyo"
+# city_2 = "Mexico City"
+# city_3 = "Chicago"
+
+# p "Three cities that are pretty cool are 
+# " + city_1 + ", " + city_2 + ",  " + "and " + city_3
