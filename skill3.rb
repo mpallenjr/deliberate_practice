@@ -39,7 +39,12 @@
 #   p "You're not santa"
 # end
 
-book_title = "Gone with the Wind"
-author = " Mike Allen"
+# book_title = "Gone with the Wind"
+# author = " Mike Allen"
 
-p "I absoultely love the book, '" + book_title + "' by " + author
+# p "I absoultely love the book, '" + book_title + "' by " + author
+
+book_title = "Scentenced to Troll"
+author = "S.L. Rowland"
+
+p "My favorite book is #{book_title}, by #{author}."
