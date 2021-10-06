@@ -81,10 +81,26 @@
 # end
 
 #9
-number_1 = -1000
-number_2 = 5000
-if number_1 < 0 && number_2 > 0
+# number_1 = -1000
+# number_2 = 5000
+# if number_1 < 0 && number_2 > 0
+#   p 1
+# else
+#   p 0
+# end
+
+#10
+number_1 = 5000
+if number_1 < 20
   p 1
+elsif number_1 > 20
+  p 2
+elsif number_1 > 40
+  p 3
+elsif number_1 > 60
+  p 4
 else
-  p 0
+  p 5
 end
+
+
