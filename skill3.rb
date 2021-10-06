@@ -31,10 +31,15 @@
 # p "My flag is #{color_1}, #{color_2}, and #{color_3}."
 
 #6
-p "enter a name:"
-name = gets.chomp.downcase
-if name == "santa"
-  p "HO HO HO"
-else
-  p "You're not santa"
-end
+# p "enter a name:"
+# name = gets.chomp.downcase
+# if name == "santa"
+#   p "HO HO HO"
+# else
+#   p "You're not santa"
+# end
+
+book_title = "Gone with the Wind"
+author = " Mike Allen"
+
+p "I absoultely love the book, '" + book_title + "' by " + author
