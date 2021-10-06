@@ -71,11 +71,20 @@
 # end
 
 #8 
-number = 99
-if number == 100
-  p 100
-elsif number == 99
-  p 99
-else 
-  p 0 
+# number = 99
+# if number == 100
+#   p 100
+# elsif number == 99
+#   p 99
+# else 
+#   p 0 
+# end
+
+#9
+number_1 = -1000
+number_2 = 5000
+if number_1 < 0 && number_2 > 0
+  p 1
+else
+  p 0
 end
