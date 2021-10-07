@@ -9,11 +9,17 @@
 # end
 
 
-while true
-  p "enter a word"
-  input_word = gets.chomp.downcase
-  if input_word == "done"
-    break
-  end
-end
+# while true
+#   p "enter a word"
+#   input_word = gets.chomp.downcase
+#   if input_word == "done"
+#     break
+#   end
+# end
 
+
+number = 0
+while number < 101
+  p number 
+  number += 5
+end
