@@ -18,9 +18,16 @@
 #   index += 1
 # end
 
-numbers = [5]
+# numbers = [5]
 
-numbers << 6
-numbers << 7
+# numbers << 6
+# numbers << 7
 
-p numbers
+# p numbers
+
+new_strings = []
+strings = ["car", "rabbit", "bike"]
+new_strings << strings[0]
+new_strings << strings[1]
+new_strings << strings[2].upcase
+p new_strings
