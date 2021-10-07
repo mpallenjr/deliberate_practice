@@ -64,11 +64,12 @@
 
 # p total
 
-p "enter a word"
-word = gets.chomp
-if word.length > 5
-  p "Thats a long word"
-else
-  p "cool"
-end
- 
+# p "enter a word"
+# word = gets.chomp
+# if word.length > 5
+#   p "Thats a long word"
+# else
+#   p "cool"
+# end
+
+
