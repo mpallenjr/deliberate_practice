@@ -24,8 +24,17 @@
 #   number += 5
 # end
 
-index = 1
-while index < 10
-  p 9000
-  index += 1
+# index = 1
+# while index < 10
+#   p 9000
+#   index += 1
+# end
+
+
+while true
+  p "enter a numer"
+  input_number = gets.chomp.to_i
+  if input_number > 10
+    break
+  end
 end
