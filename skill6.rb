@@ -32,9 +32,13 @@
 # new_strings << strings[2].upcase
 # p new_strings
 
-names = ["mike", "jenny", "harvey"]
-index = 0
-while index < names.length
-  p names[index]
-  index += 1
-end
+# names = ["mike", "jenny", "harvey"]
+# index = 0
+# while index < names.length
+#   p names[index]
+#   index += 1
+# end
+
+array = ["car", "dog"]
+array << "echo"
+p array
