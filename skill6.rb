@@ -53,9 +53,14 @@
 
 # p new_array
 
-array = [1,2]
-index = 0
-while index < array.length
-  p array[index]
-  index += 1
-end
+# array = [1,2]
+# index = 0
+# while index < array.length
+#   p array[index]
+#   index += 1
+# end
+
+array = ["Russia", "USA", "Canada"]
+array << "France"
+
+p array
