@@ -42,7 +42,15 @@
 
 # p word_1 + word_2
 
-p "enter a word"
-word = gets.chomp
+# p "enter a word"
+# word = gets.chomp
 
-p word.length
+# p word.length
+
+p "enter a number"
+number = gets.chomp.to_i
+if number < 0 
+  p "that's a negative number"
+else
+  p "cool"
+end
