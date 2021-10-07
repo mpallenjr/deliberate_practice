@@ -39,9 +39,15 @@
 #   end
 # end
 
-number = 50
+# number = 50
 
-while number < 71
-  p number
-  number += 1
+# while number < 71
+#   p number
+#   number += 1
+# end
+
+index = 0
+while index < 145
+  p "Around the world"
+  index += 1
 end
