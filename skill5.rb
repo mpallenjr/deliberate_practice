@@ -4,6 +4,16 @@
 #   number += 1
 # end
 
-5.times do
-  p "Hello" 
+# 5.times do
+#   p "Hello" 
+# end
+
+
+while true
+  p "enter a word"
+  input_word = gets.chomp.downcase
+  if input_word == "done"
+    break
+  end
 end
+
