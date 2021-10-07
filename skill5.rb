@@ -18,8 +18,14 @@
 # end
 
 
-number = 0
-while number < 101
-  p number 
-  number += 5
+# number = 0
+# while number < 101
+#   p number 
+#   number += 5
+# end
+
+index = 1
+while index < 10
+  p 9000
+  index += 1
 end
