@@ -39,6 +39,16 @@
 #   index += 1
 # end
 
-array = ["car", "dog"]
-array << "echo"
-p array
+# array = ["car", "dog"]
+# array << "echo"
+# p array
+
+array = [17, 11, 300, 960, 8000]
+new_array = []
+new_array << array[0] * 10
+new_array << array[1]
+new_array << array[2]
+new_array << array[3]
+new_array << array[4]
+
+p new_array
