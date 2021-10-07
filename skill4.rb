@@ -47,10 +47,19 @@
 
 # p word.length
 
+# p "enter a number"
+# number = gets.chomp.to_i
+# if number < 0 
+#   p "that's a negative number"
+# else
+#   p "cool"
+# end
+
 p "enter a number"
-number = gets.chomp.to_i
-if number < 0 
-  p "that's a negative number"
-else
-  p "cool"
-end
+number_1 = gets.chomp.to_i
+p "enter a second number"
+number_2 = gets.chomp.to_i
+
+total = number_1 * number_2
+
+p total
