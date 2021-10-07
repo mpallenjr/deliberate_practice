@@ -24,7 +24,13 @@
 
 # p total
 
-p "enter a word"
-word = gets.chomp.reverse
+# p "enter a word"
+# word = gets.chomp.reverse
 
-p word
+# p word
+
+p "enter a number"
+number = gets.chomp
+10.times do
+  p number
+end
