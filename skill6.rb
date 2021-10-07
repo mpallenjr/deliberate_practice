@@ -43,12 +43,19 @@
 # array << "echo"
 # p array
 
-array = [17, 11, 300, 960, 8000]
-new_array = []
-new_array << array[0] * 10
-new_array << array[1]
-new_array << array[2]
-new_array << array[3]
-new_array << array[4]
+# array = [17, 11, 300, 960, 8000]
+# new_array = []
+# new_array << array[0] * 10
+# new_array << array[1]
+# new_array << array[2]
+# new_array << array[3]
+# new_array << array[4]
 
-p new_array
+# p new_array
+
+array = [1,2]
+index = 0
+while index < array.length
+  p array[index]
+  index += 1
+end
