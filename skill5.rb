@@ -46,8 +46,17 @@
 #   number += 1
 # end
 
-index = 0
-while index < 145
-  p "Around the world"
-  index += 1
+# index = 0
+# while index < 145
+#   p "Around the world"
+#   index += 1
+# end
+while true
+p "enter a word"
+input_word = gets.chomp.downcase
+if input_word.length > 5
+  break
+end
+
+
 end
