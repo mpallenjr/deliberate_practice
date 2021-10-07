@@ -29,8 +29,15 @@
 
 # p word
 
-p "enter a number"
-number = gets.chomp
-10.times do
-  p number
-end
+# p "enter a number"
+# number = gets.chomp
+# 10.times do
+#   p number
+# end
+
+p "enter a word"
+word_1 = gets.chomp.upcase
+p "enter 2nd word"
+word_2 = gets.chomp.upcase
+
+p word_1 + word_2
