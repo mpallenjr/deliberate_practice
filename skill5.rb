@@ -31,10 +31,17 @@
 # end
 
 
-while true
-  p "enter a numer"
-  input_number = gets.chomp.to_i
-  if input_number > 10
-    break
-  end
+# while true
+#   p "enter a numer"
+#   input_number = gets.chomp.to_i
+#   if input_number > 10
+#     break
+#   end
+# end
+
+number = 50
+
+while number < 71
+  p number
+  number += 1
 end
