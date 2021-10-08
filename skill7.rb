@@ -38,6 +38,14 @@
 #   p laptop
 # end
 
-laptops = [{brand: "Toshiba", model: "Fast"}, {brand: "Apple", model: "MacBook Pro"}, {brand: "Google", model: "Chromebook"}] 
+# laptops = [{brand: "Toshiba", model: "Fast"}, {brand: "Apple", model: "MacBook Pro"}, {brand: "Google", model: "Chromebook"}] 
 
-p laptops[1][:model]
+# p laptops[1][:model]
+
+words = {cat: "a small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws. It is widely kept as a pet or for catching mice, and many breeds have been developed.
+  ", dog: "a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, nonretractable claws, and a barking, howling, or whining voice.
+  "}
+
+  words[:hampster] = "A small Eurasian rodent of the subfamily Cricetinae, especially Mesocricetus auratus, having large cheek pouches and a short tail and often kept as a pet or used in laboratory research."
+
+  p words
