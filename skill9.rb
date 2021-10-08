@@ -13,10 +13,19 @@
 # end
 # p new_words
 
-first_name = []
-people = [{name: "Harvey", age: 1}, {name: "Mike", age: 35}]
+# first_name = []
+# people = [{name: "Harvey", age: 1}, {name: "Mike", age: 35}]
 
-first_name << people[0][:name]
-first_name << people[1][:name]
+# first_name << people[0][:name]
+# first_name << people[1][:name]
 
-p first_name
+# p first_name
+
+numbers = [1, 2, 3, 4]
+new_numbers = []
+
+numbers.each do |number|
+  new_numbers << number + 7
+end
+
+p new_numbers
