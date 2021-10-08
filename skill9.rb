@@ -38,11 +38,20 @@
 # end
 # p numbers
 
-shape = []
-eyes = [{color: "brown", shape: "Round"}, {color: "green", shape: "almond"}]
+# shape = []
+# eyes = [{color: "brown", shape: "Round"}, {color: "green", shape: "almond"}]
 
-eyes.each do |eye|
-  shape << eye[:shape]
+# eyes.each do |eye|
+#   shape << eye[:shape]
+# end
+
+# p shape
+
+numbers = [1,2,3]
+new_numbers = []
+numbers.each do |number|
+  new_numbers << number / 2
 end
 
-p shape
+p new_numbers
+
