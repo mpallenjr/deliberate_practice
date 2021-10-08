@@ -47,11 +47,26 @@
 
 # p shape
 
-numbers = [1,2,3]
-new_numbers = []
-numbers.each do |number|
-  new_numbers << number / 2
+# numbers = [1,2,3]
+# new_numbers = []
+# numbers.each do |number|
+#   new_numbers << number / 2
+# end
+
+# p new_numbers
+
+words = ["hello", "goodbye", "please", "thanks"]
+split_words = []
+first_letter = []
+# split_words << words[0].split(//)
+# first_letter << split_words[0][0]
+index = 0
+words.each do |word|
+  split_words << words[index].split(//)
+  index += 1
 end
 
-p new_numbers
-
+split_words.each do |split_word|
+  first_letter << split_word[0][0]
+end
+p first_letter
