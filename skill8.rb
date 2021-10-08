@@ -43,10 +43,17 @@
 # end
 # convert(10)
 
-def repeat(word)
-  5.times do
-    p word
-end
+# def repeat(word)
+#   5.times do
+#     p word
+# end
+# end
+
+# repeat("Hello")
+
+def average(number1, number2, number3)
+  total = (number1 + number2 + number3)/3
+  p total
 end
 
-repeat("Hello")
+average(3,3,3)
