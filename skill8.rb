@@ -23,10 +23,16 @@
 
 # p doubleself(10)
 
-def firstletter(word)
-  letters = []
-  letters << word.split(//)
-  p letters[0][0]
-end
+# def firstletter(word)
+#   letters = []
+#   letters << word.split(//)
+#   p letters[0][0]
+# end
 
-p firstletter("Mike")
+# p firstletter("Mike")
+
+def combine(word1, word2, word3)
+  new_word = word1 + word2 + word3
+  p new_word
+end
+combine("hello","new","york")
