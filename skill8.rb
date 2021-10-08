@@ -16,9 +16,17 @@
 
 # p subtract(700, 699)
 
-def doubleself(number)
-  number = number * number
-  p number
+# def doubleself(number)
+#   number = number * number
+#   p number
+# end
+
+# p doubleself(10)
+
+def firstletter(word)
+  letters = []
+  letters << word.split(//)
+  p letters[0][0]
 end
 
-p doubleself(10)
+p firstletter("Mike")
