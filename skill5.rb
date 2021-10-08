@@ -59,9 +59,26 @@
 # # end
 # end
 
-number = 2
+# number = 2
 
-while number < 41
-  p number
-  number += 2
-end
+# while number < 41
+#   p number
+#   number += 2
+# end
+
+
+
+# numbers = [1,2,3,4,5,6,7,8,9,10]
+
+# numbers.each do |number|
+#   p number
+# end
+
+# words = ["hello", "hello", "hello", "hello", "hello"]
+# words.each do |word|
+#   p word
+# end
+
+
+
+

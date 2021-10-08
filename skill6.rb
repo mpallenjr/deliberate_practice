@@ -60,7 +60,7 @@
 #   index += 1
 # end
 
-array = ["Russia", "USA", "Canada"]
-array << "France"
+# array = ["Russia", "USA", "Canada"]
+# array << "France"
 
-p array
+# p array
