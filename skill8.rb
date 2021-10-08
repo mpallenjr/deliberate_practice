@@ -37,8 +37,16 @@
 # end
 # combine("hello","new","york")
 
-def convert(number)
-  number = number.to_s
-  p number
+# def convert(number)
+#   number = number.to_s
+#   p number
+# end
+# convert(10)
+
+def repeat(word)
+  5.times do
+    p word
 end
-convert(10)
+end
+
+repeat("Hello")
