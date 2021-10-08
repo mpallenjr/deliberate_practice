@@ -31,8 +31,14 @@
 
 # p firstletter("Mike")
 
-def combine(word1, word2, word3)
-  new_word = word1 + word2 + word3
-  p new_word
+# def combine(word1, word2, word3)
+#   new_word = word1 + word2 + word3
+#   p new_word
+# end
+# combine("hello","new","york")
+
+def convert(number)
+  number = number.to_s
+  p number
 end
-combine("hello","new","york")
+convert(10)
