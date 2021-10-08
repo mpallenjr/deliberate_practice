@@ -71,11 +71,20 @@
 # end
 # p first_letter
 
-peoples = [{name: "Mike", age: 20}, {name: "Jenny", age: 25},{name: "Harvey", age: 1}]
-ages = []
-index = 0
-peoples.each do |people|
-  ages << peoples[index][:age]
-  index += 1
-end 
-p ages
+# peoples = [{name: "Mike", age: 20}, {name: "Jenny", age: 25},{name: "Harvey", age: 1}]
+# ages = []
+# index = 0
+# peoples.each do |people|
+#   ages << peoples[index][:age]
+#   index += 1
+# end 
+# p ages
+
+numbers = [100, 200, 300, 400]
+strings = []
+
+numbers.each do |number|
+  strings << number.to_s
+end
+
+p strings
