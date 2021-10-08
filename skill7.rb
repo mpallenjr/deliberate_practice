@@ -21,8 +21,14 @@
 #   p info 
 # end
 
-infos = [{title: "Pangeia Online", author: "S.L. Rowland"},{title: "Hello", author: "Touch Williams"}, {title: "Get it on Saturdays", author: "Nick Saban"}]
+# infos = [{title: "Pangeia Online", author: "S.L. Rowland"},{title: "Hello", author: "Touch Williams"}, {title: "Get it on Saturdays", author: "Nick Saban"}]
 
-p infos[2]
+# p infos[2]
 
+
+states = {california: "Sacramento", missouri: "Jefferson City", texas: "Austin"}
+
+states[:arizona] = "Phoenix"
+
+p states
 
