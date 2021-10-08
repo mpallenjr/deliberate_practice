@@ -21,11 +21,19 @@
 
 # p first_name
 
-numbers = [1, 2, 3, 4]
-new_numbers = []
+# numbers = [1, 2, 3, 4]
+# new_numbers = []
 
-numbers.each do |number|
-  new_numbers << number + 7
+# numbers.each do |number|
+#   new_numbers << number + 7
+# end
+
+# p new_numbers
+
+words = ["Mike", "Jenny", "Harvey"]
+numbers = []
+
+words.each do |word|
+  numbers << word.length
 end
-
-p new_numbers
+p numbers
