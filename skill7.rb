@@ -15,10 +15,14 @@
 
 # p menu_items
 
-infos = {book_title: "Sentenced to Troll", author: "S.L. Rowland", number_of_pages: 300, language:"English"}
+# infos = {book_title: "Sentenced to Troll", author: "S.L. Rowland", number_of_pages: 300, language:"English"}
 
-infos.each do |info|
-  p info 
-end
+# infos.each do |info|
+#   p info 
+# end
+
+infos = [{title: "Pangeia Online", author: "S.L. Rowland"},{title: "Hello", author: "Touch Williams"}, {title: "Get it on Saturdays", author: "Nick Saban"}]
+
+p infos[2]
 
 
