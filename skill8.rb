@@ -10,8 +10,15 @@
 
 # p allcaps("hello")
 
-def subtract(number1, number2)
-  total = number1 - number2
+# def subtract(number1, number2)
+#   total = number1 - number2
+# end
+
+# p subtract(700, 699)
+
+def doubleself(number)
+  number = number * number
+  p number
 end
 
-p subtract(700, 699)
+p doubleself(10)
