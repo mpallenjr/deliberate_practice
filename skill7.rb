@@ -9,8 +9,16 @@
 
 # p array[0]
 
-menu_items = {meat: 3.00, cheese: 1.50, fries: 2.00}
+# menu_items = {meat: 3.00, cheese: 1.50, fries: 2.00}
 
-menu_items[:soda] = 1.00
+# menu_items[:soda] = 1.00
 
-p menu_items
+# p menu_items
+
+infos = {book_title: "Sentenced to Troll", author: "S.L. Rowland", number_of_pages: 300, language:"English"}
+
+infos.each do |info|
+  p info 
+end
+
+
