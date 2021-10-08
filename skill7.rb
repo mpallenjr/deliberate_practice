@@ -32,8 +32,12 @@
 
 # p states
 
-laptops = {brand: "toshiba", model: "fast", year: 2020}
+# laptops = {brand: "toshiba", model: "fast", year: 2020}
 
-laptops.each do |laptop|
-  p laptop
-end
+# laptops.each do |laptop|
+#   p laptop
+# end
+
+laptops = [{brand: "Toshiba", model: "Fast"}, {brand: "Apple", model: "MacBook Pro"}, {brand: "Google", model: "Chromebook"}] 
+
+p laptops[1][:model]
