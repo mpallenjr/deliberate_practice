@@ -51,9 +51,16 @@
 
 # repeat("Hello")
 
-def average(number1, number2, number3)
-  total = (number1 + number2 + number3)/3
-  p total
+# def average(number1, number2, number3)
+#   total = (number1 + number2 + number3)/3
+#   p total
+# end
+
+# average(3,3,3)
+
+def alter(number)
+  new_number = (number * 10) + 30
+  p new_number
 end
 
-average(3,3,3)
+alter(11)
