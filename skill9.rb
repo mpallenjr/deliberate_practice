@@ -55,18 +55,27 @@
 
 # p new_numbers
 
-words = ["hello", "goodbye", "please", "thanks"]
-split_words = []
-first_letter = []
-# split_words << words[0].split(//)
-# first_letter << split_words[0][0]
-index = 0
-words.each do |word|
-  split_words << words[index].split(//)
-  index += 1
-end
+# words = ["hello", "goodbye", "please", "thanks"]
+# split_words = []
+# first_letter = []
+# # split_words << words[0].split(//)
+# # first_letter << split_words[0][0]
+# index = 0
+# words.each do |word|
+#   split_words << words[index].split(//)
+#   index += 1
+# end
 
-split_words.each do |split_word|
-  first_letter << split_word[0][0]
-end
-p first_letter
+# split_words.each do |split_word|
+#   first_letter << split_word[0][0]
+# end
+# p first_letter
+
+peoples = [{name: "Mike", age: 20}, {name: "Jenny", age: 25},{name: "Harvey", age: 1}]
+ages = []
+index = 0
+peoples.each do |people|
+  ages << peoples[index][:age]
+  index += 1
+end 
+p ages
