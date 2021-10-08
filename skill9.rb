@@ -30,10 +30,19 @@
 
 # p new_numbers
 
-words = ["Mike", "Jenny", "Harvey"]
-numbers = []
+# words = ["Mike", "Jenny", "Harvey"]
+# numbers = []
 
-words.each do |word|
-  numbers << word.length
+# words.each do |word|
+#   numbers << word.length
+# end
+# p numbers
+
+shape = []
+eyes = [{color: "brown", shape: "Round"}, {color: "green", shape: "almond"}]
+
+eyes.each do |eye|
+  shape << eye[:shape]
 end
-p numbers
+
+p shape
