@@ -26,9 +26,14 @@
 # p infos[2]
 
 
-states = {california: "Sacramento", missouri: "Jefferson City", texas: "Austin"}
+# states = {california: "Sacramento", missouri: "Jefferson City", texas: "Austin"}
 
-states[:arizona] = "Phoenix"
+# states[:arizona] = "Phoenix"
 
-p states
+# p states
 
+laptops = {brand: "toshiba", model: "fast", year: 2020}
+
+laptops.each do |laptop|
+  p laptop
+end
