@@ -4,8 +4,14 @@
 
 # p double(10)
 
-def allcaps(string)
-   string.upcase
+# def allcaps(string)
+#    string.upcase
+# end
+
+# p allcaps("hello")
+
+def subtract(number1, number2)
+  total = number1 - number2
 end
 
-p allcaps("hello")
+p subtract(700, 699)
