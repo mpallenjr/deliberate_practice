@@ -1,5 +1,11 @@
-def double(number)
-  number *= 2
+# def double(number)
+#   number *= 2
+# end
+
+# p double(10)
+
+def allcaps(string)
+   string.upcase
 end
 
-p double(10)
+p allcaps("hello")
